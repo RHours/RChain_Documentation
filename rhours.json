@@ -1,0 +1,67 @@
+{
+    "Version":"1.0",
+    "Projects":[
+        {
+            "Id":"rchaindocs",
+            "Name":"RChain Documentation"
+        }
+    ],
+    "Contributors":[
+        {
+            "PublicName":"glenbraun",
+            "PublicKey":"MCowBQYDK2VwAyEA/hvR4bbrUL284sfAqdBVz+Rc7tPfKhQnVg5Qe4EOOgo=",
+            "PrivateInfoHash":"7dTTPVPKO7UX2MJXte65cGa++KKf4TH3gpnAGVaMRSw="
+        }
+    ],
+    "CompensationAgreements":[
+        {
+            "Proposal":{
+                "Invoice":{
+                    "InvoiceId":"afgoinol",
+                    "Project":{
+                        "Id":"rchaindocs",
+                        "Name":"RChain Documentation"
+                    },
+                    "Contributor":{
+                        "PublicName":"glenbraun",
+                        "PublicKey":"MCowBQYDK2VwAyEA/hvR4bbrUL284sfAqdBVz+Rc7tPfKhQnVg5Qe4EOOgo=",
+                        "PrivateInfoHash":"7dTTPVPKO7UX2MJXte65cGa++KKf4TH3gpnAGVaMRSw="
+                    },
+                    "ContributionSpans":[
+                        {
+                            "StartDate":"2018-08-01T00:00:00.0000000",
+                            "EndDate":"2018-08-07T00:00:00.0000000",
+                            "UtcOffset":-8.0,
+                            "Contributions":[
+                                {
+                                    "Terms":{
+                                        "Type":"HourlyWithCompoundedInterestAndMaxTerm",
+                                        "Items":[
+                                            {
+                                                "Hours":5.0,
+                                                "HourlyRate":100.0,
+                                                "Token":"USD",
+                                                "Interest":1.0,
+                                                "MaxMultiplier":10.0
+                                            }
+                                        ]
+                                    },
+                                    "Claims":[
+                                        "Created RChain Documentation proposal"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "InvoiceHash":"",
+                "ContributorSignature":"",
+                "ContributorPublicKey":""
+            },
+            "ProposalHash":"",
+            "ApproverSignature":"",
+            "ApproverPublicKey":""
+        }
+    ],
+    "InvoiceEvents":[]
+}

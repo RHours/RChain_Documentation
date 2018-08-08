@@ -12,12 +12,12 @@ While there are efforts underway, there still remains a need for an authoritativ
 ## Creative Commons?
 Perhaps an open source commons project will provide the answer. That might happen, but I, personally, wonder about the economics of that approach. The contributors to an RChain open source documentation project can be in two possible categories: they can hold RHOC, or not hold RHOC. If they do not hold RHOC, well, then they are being very kind to provide their work for free to the ultimate benefit of the RHOC price and its holders. If the contributors do hold RHOC, then they can recalculate their purchase price as (market price + labor creating documentation). 
 
-While I'm not an expert in game theory, does it seem that the best action is to let others write the documentation, for free if possible? That's great if it happens, but if not, it seems like a long-term loosing approach. Adopting RChain requires significant learning (or unlearning and relearning). That's tough if you're guessing at simple things like syntax and discovering features by spelunking in the code.
+While I'm not an expert in game theory, does it seem that the best action is to let others write the documentation, for free if possible? That's great if it happens, but if not, it seems like a long-term losing approach. Adopting RChain requires significant learning (or unlearning and relearning). That's tough if you're guessing at simple things like syntax and discovering features by spelunking in the code.
 
 ## My proposal in more detail
 I propose we create a documentation namespace and a documentation Rholang contract, perhaps simply "documentation". This contract receives requests for documentation that are structured in such a way that only the documentation requested is returned. Its similar to the query string of a URL. The content returned is encoded in Rholang terms but a client side viewer transforms this content into something viewable, probably HTML.
 
-My understanding of namespaces tells me that economic decisions can be made as to the gas price of calling contracts with it. I propose that we use the gas fees to pay not just for operating the physical hardware of the namespace but also for the creation of the documentation content. That is, we pay the writers, editors, translators, and developers who created the content and the namespace contracts from the fees.
+My understanding of namespaces tells me that economic decisions can be made as to the gas price of calling contracts within it. I propose that we use the gas fees to pay not just for operating the physical hardware of the namespace but also for the creation of the documentation content. That is, we pay the writers, editors, translators, and developers who created the content and the namespace contracts from the fees.
 
 I can see a fatal flaw, though. One person can pay the gas fee, copy the content and post it to a free server off chain. 
 
@@ -44,7 +44,7 @@ The following plan is described in three, six-month phases. The first phase focu
 
 
 * Establish a pooled budget from the co-op(s), Pyrofex, Reflective, and Pithia. 
-* Create an LLC using this RHours model. This is a ZERO MARGIN company. It makes no profit. The contributions are recorded and compensated from fees (or purchased from investors) but once paid, the intellectual property is free of charge and open sourced. 
+* Create an LLC using the RHours model. This is a ZERO MARGIN company. It makes no profit. The contributions are recorded and then compensated from fees (or purchased from investors) but once paid, the intellectual property is free of charge and open sourced. 
 * From the pooled budget, establish SOW contracts with technical writers, editors and translators to work full time in a documentation effort. Size of team governed by budget and scope. Minimum scope is a reference of all Rholang features; its core, system contracts; conceptual topics on the mathematical foundations of Rholang; and an operators guide for node/validator operations. 
 * Use github issues and Discord to gather and act on member feedback on documentation prioritization. 
 * Write relevant documentation today, published off-chain like any other documentation effort. That is, take no technical dependency on Rholang for authoring or delivering the content in phase 1. 
